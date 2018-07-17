@@ -1,0 +1,104 @@
+.result-wrapper {
+    margin: 20% 2.5%;
+}
+
+.result-wrapper .wrapper-text {
+    background-color: #000;
+    display: flex;
+    margin: 0;
+    padding: 1rem 1rem 1rem 1.5rem;
+}
+
+.result-wrapper .cross-button {
+    margin-left: auto;
+}
+
+.result-wrapper .result-information {
+    padding-left: 0;
+}
+
+.result-wrapper .result-information-header {
+    margin-bottom: 1rem;
+    background-color: #000;
+}
+
+.result-wrapper .result-details {
+    padding: 0.625rem;
+    margin: 0.75rem;
+    color: #fff;
+    border-bottom: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.result-wrapper .button-icon {
+    padding-right: 2.5rem;
+}
+
+.result-wrapper .result-information-row {
+    border: 1px solid #808080;
+}
+
+.result-wrapper .result-information-header,
+.result-wrapper .result-information-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.50rem;
+}
+
+.result-wrapper .result-information-heading,
+.result-wrapper .result-total-score {
+    font-size: 1.25rem;
+}
+
+.result-wrapper .question-list {
+    width: 100%;
+    padding: 1rem;
+    background-color: #4d4d4d;
+    margin: auto;
+    color: #fff;
+}
+
+.result-wrapper .question-list tr,
+.result-wrapper .question-list td {
+    padding: 0.7rem;
+}
+
+.result-wrapper .question-table-heading {
+    font-size: 0.9375rem;
+    padding: 0.5rem;
+    margin-left: 10px;
+}
+
+.result-wrapper .question-list tr td {
+    border-bottom: 1px solid #808080;
+}
+
+@media screen and (min-width:640px) {
+    .result-wrapper {
+        margin: 5%;
+    }
+    .result-wrapper .result-details p {
+        font-size: 1.25rem;
+    }
+    .result-wrapper .result-details {
+        width: 40%;
+        border-bottom: none;
+        float: left;
+    }
+    .result-wrapper .result-information-header {
+        margin-bottom: 0rem;
+    }
+    .result-wrapper .question-table-heading {
+        font-size: 1.25rem;
+        display: inline-block;
+    }
+    .result-wrapper .question-table {
+        display: inline-block;
+        border-left: 1px solid #000;
+        width: 40%;
+    }
+    .result-wrapper .question-list tr {
+        width: 100%;
+    }
+}

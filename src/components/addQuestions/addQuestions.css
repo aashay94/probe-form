@@ -1,0 +1,48 @@
+.add-question .input-detail{
+    background-color:#4d4d4d; 
+    margin:7%;
+    width: 75%;
+}
+
+.add-question .content{
+    margin: 0 1rem;
+}
+
+.add-question .wrapper-heading{
+    margin-bottom: 1rem;
+    color: #e6e6e6;
+    background-color: #262626;
+    padding: 0.6rem 1.2rem;
+}
+
+.add-question .question-input{
+    width: 85%;
+    border: 1px solid #404040;
+    margin:0.5rem 1rem;
+}
+
+.add-question .comment-input{
+    width: 85%;
+    padding: 1.25rem 0.3rem;
+}
+.add-question .button-custom{
+    width: 44%;
+    margin:5% 2.5%
+}
+
+.add-question .cross-button{
+    height:1.25rem;
+    float: right;
+}
+
+@media screen and (min-width:640px)
+{
+    .add-question .button-custom{
+        width: 30%;
+        margin:2.5%
+    }
+    .add-question .comment-input{
+        padding: 0.3rem 0.3rem 1.5rem;
+    }
+
+}

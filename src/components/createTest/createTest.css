@@ -1,0 +1,61 @@
+.create-test .dropdown-primary,
+.create-test .button {
+    width: 45%;
+    margin: 2%;
+}
+
+.create-test .text-input {
+    width: 90%;
+}
+
+.create-test h1 {
+    margin-bottom: 3rem;
+}
+
+.create-test .font-small {
+    font-size: 0.8rem;
+}
+
+.create-test .desktop-short-name {
+    display: none;
+}
+
+.create-test .sub-heading {
+    background-color: #262626;
+    padding: 0.6rem 1.2rem;
+}
+
+.create-test {
+    margin: auto 2%;
+}
+
+@media screen and (min-width:640px) {
+    .create-test {
+        max-width: 50rem;
+    }
+
+    .create-test .dropdown-primary,
+    .create-test .button {
+        min-width: 8.75rem;
+        width: 15%;
+        margin: 1.5rem 1rem;
+    }
+
+    .create-test input[type=text] {
+        min-width: 17rem;
+        width: 40%;
+    }
+    
+    .create-test .mobile-short-name {
+        display: none;
+    }
+
+    .create-test .desktop-short-name {
+        display: block;
+    }
+
+    .create-test .desktop-description .text-input {
+        width: 90%;
+    }
+
+}

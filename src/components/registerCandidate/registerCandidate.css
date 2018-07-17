@@ -1,0 +1,40 @@
+.register-candidate .dropdown-primary,
+.register-candidate .button {
+    width: 45%;
+    margin: 2%;
+}
+
+.register-candidate .text-input {
+    width: 90%;
+}
+
+.register-candidate h1 {
+    margin-bottom: 3rem;
+}
+
+.register-candidate .sub-heading {
+    background-color: #262626;
+    padding: 0.6rem 1.2rem;
+}
+
+.register-candidate {
+    margin: auto 2%;
+}
+
+@media screen and (min-width:640px) {
+    .register-candidate {
+        max-width: 50rem;
+    }
+
+    .register-candidate .dropdown-primary,
+    .register-candidate .button {
+        min-width: 9rem;
+        width: 20%;
+        margin: 1rem;
+    }
+
+    .register-candidate .text-input {
+        min-width: 20rem;
+        width: 45%;
+    }
+}

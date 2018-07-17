@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="icon" type="image/png" href="src/assests/images/favicon.png">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="src/styles/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="src/styles/global.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="src/components/header/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="src/components/footer/footer.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="src/components/probeFormImage/probeFormImage.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="src/components/loginForm/loginForm.css" />
+    <script src="../../vendor/w3.js"></script>
+</head>
+
+<body>
+    <header w3-include-html="src/components/header/headerPrimary.html"></header>
+    <main class="main-container login-margin-top">
+        <div class="flex-align-items">
+            <div w3-include-html="src/components/probeFormImage/probeFormImage.html"></div>
+            <div class="login-form" w3-include-html="src/components/loginForm/loginForm.html"></div>
+        </div>
+    </main>
+    <footer w3-include-html="src/components/footer/footer.html"></footer>
+    <script>
+        includeHTML();
+    </script>
+</body>
+
+</html>

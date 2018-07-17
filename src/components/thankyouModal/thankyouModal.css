@@ -1,0 +1,38 @@
+.thankyou-page {
+    text-align: center;
+    margin: auto;
+    margin-top: 10rem;
+    padding: 5%;
+    width: 80%;
+    background-color: #4d4d4d;
+}
+
+.thankyou-page .thankyou-greeting {
+    padding: 0.3rem;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.thankyou-page .border-line {
+    padding: 0.6rem;
+    border-bottom: 2px solid #ff0000;
+}
+
+.thankyou-page .content {
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width:640px) {
+    .thankyou-page {
+        min-width: 18rem;
+        width: 35%;
+        padding: 5%;
+        margin-top: 15rem;
+    }
+    .thankyou-page .thankyou-greeting {
+        font-size: 1.8rem;
+    }
+    .thankyou-page .content {
+        font-size: 1rem;
+    }
+}

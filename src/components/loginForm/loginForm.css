@@ -1,0 +1,62 @@
+.login-details {
+    margin-top: 3rem;
+}
+.login-details .login-button{
+    width: 85%;
+    margin: 5%;
+    margin-left: 4%;
+    display: block;
+    text-align:center;
+}
+.login-details .profile-pic{
+    display: block;
+    margin: auto;
+    border-radius: 0.625rem;
+}
+.login-details .login-text-field,
+.login-details .login-password-field{
+    width: 90%;
+    margin-bottom: 5%;
+}
+.login-details .lost-password-link{
+    color: #ff0000;
+    font-size:0.75rem;
+    margin-right:5%;
+    float: right;
+}
+.login-details .login-checkbox{
+    opacity: 1;
+    background-color: #404040;
+    margin-left: 4%;
+}
+.login-details .styling-label{
+    color: #fff;
+    font-size:0.75rem;
+    margin-left: 10%;
+}
+.login-details .page-heading{
+    margin-left:5%; 
+}
+@media screen and (min-width:640px){
+     .login-form {    
+        width:30%;
+        display: inline-block;
+        margin-right: 25%;
+    }
+    .login-details .profile-pic{
+        margin:5%;
+    }
+    .login-details .login-checkbox {
+        margin-left: 1.5rem;
+    }
+    .login-details .styling-label {
+        margin-left: 2.8rem;
+    }
+    .login-details {
+        margin-top: 25%;
+    }
+   
+    .login-details .lost-password-link {
+        margin-right: 8%;
+    }
+}

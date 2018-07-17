@@ -1,0 +1,138 @@
+.header-wrapper{
+    background-color: #d6d6d6;
+}
+.header-wrapper .header-user-container {
+    background-image: url("../../assests/images/header-background.jpg");
+    padding: 0.5rem 0 0.25rem 0.5rem;
+    border-bottom: 4px solid red;
+}
+.primary-header-user-container{
+    background-image: url("../../assests/images/header-background.jpg");
+}
+
+.header-wrapper img {
+    float: left;
+    height: 1.5rem;
+}
+
+.header-wrapper .header-user-container p {
+    font-size: 1.5rem;
+}
+
+.header-wrapper .header-user-container a {
+    text-align: center;
+    margin-right: 1.5rem;
+}
+
+.header-wrapper .header-logo,
+.header-wrapper .header-button {
+    display: inline-block;
+}
+
+.header-wrapper .header-button {
+    float: right;
+}
+
+.header-wrapper .dropdown-button {
+    color: #000;
+    background-color: transparent;
+    border-color: transparent;
+    width: auto;
+    padding: 0rem;
+}
+
+.header-wrapper .login-button {
+    width: 12rem;
+    margin: 0.5rem auto;
+}
+
+.header-wrapper .dropdown-icon {
+    float: right;
+    height: 0.5rem;
+    padding-top: 1rem;
+}
+
+.header-wrapper .dropdown-primary {
+    margin: 0.25rem 0 0 0;
+}
+
+.header-wrapper .profile-pic {
+    height: 2.25rem;
+    border-radius: 4px;
+}
+
+.header-wrapper span {
+    font-size: 1.25rem;
+}
+
+.header-wrapper .dropdown-primary span {
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 0.75rem;
+    margin-left: 0.25rem;
+}
+
+.header-wrapper .dropdown-content a:hover {
+    background-color: #fff;
+}
+
+.header-wrapper .dropdown-content {
+    right: 0;
+    width: 11.25rem;
+    margin-top: -0.5rem;
+}
+
+.header-wrapper .header-dropdown {
+    margin-top: 0;
+}
+
+.header-wrapper .profile-login-button {
+    display: none;
+}
+.header-wrapper .header-button-image {
+    background: transparent;
+    border: transparent;
+    margin-top: 1rem;
+    display: none;
+}
+
+@media screen and (min-width:640px) {
+    .header-wrapper .header {
+        height: 3rem;
+    }
+    .header-wrapper .header-dropdown-hidden {
+        display: block;
+    }
+    .header-wrapper .login-button {
+        display: none;
+    }
+    .header-wrapper .header-dropdown-hidden {
+        height: 3rem;
+    }
+    .header-wrapper .header-button-image {
+        background: transparent;
+        border: transparent;
+        display: none;
+    }
+    .header-wrapper .header-logo {
+        margin: 0rem 0.5rem;
+        margin-top: 0.25rem;
+        margin-left: 2rem;
+    }
+    .header-wrapper .profile-pic {
+        margin-left: 0.25rem;
+    }
+    .header-wrapper .dropdown-icon {
+        display: none;
+    }
+    .header-wrapper span {
+        font-size: 1.75rem;
+    }
+
+    .header-wrapper .dropdown-primary {
+        display: block;
+    }
+    .header-wrapper .profile-login-button {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,47 @@
+.show-result-input .career-stage,.show-result-input .date{
+    margin-bottom: 0.8rem;
+    display: block;
+}
+.show-result-input input[type=text]{
+    margin:0 0 0.5rem;
+    width:90%;
+}
+.show-result-input .button {
+    display: block;
+    margin: 1rem 0 2rem;
+}
+.show-result-input .date .dropdown-primary{    
+    display: inline-block;
+    margin-top:1rem;
+}
+.show-result-input .dropdown-button{
+    background: transparent;
+    color: #999;
+    border: 1px solid #404040;
+    padding-right:2rem;
+
+}
+.show-result-input .dropdown-content a{
+    padding: 0.4rem;
+}
+.show-result-input .dropdown-content{
+    max-height:22rem;
+    overflow: auto;
+}
+@media screen and (min-width:640px) {
+    .show-result-input .is-inline-block{
+        display: inline-block;
+    }
+    .show-result-input .career-stage{
+        display: block;
+    }
+    .show-result-input .button {
+        margin: 0 1rem;
+    }
+    .show-result-input .year-dropdown{
+        margin-left: 2rem;
+    }
+    .show-result-input .date{
+        margin-bottom: 2rem;
+    }
+}

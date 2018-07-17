@@ -1,0 +1,36 @@
+.signup-details-wrapper .signup-details {
+    margin-top: 2rem;
+}
+.signup-details-wrapper .custom-signup-button{
+    width: 84%;
+    margin: 5%;
+    display: block;
+    text-align:center;
+}
+.signup-details-wrapper .custom-text{
+    width: 90%;
+    margin-bottom: 1.25rem;
+}
+.signup-details-wrapper .custom-password{
+    width: 90%;
+    margin-bottom: 1.25rem;
+}
+.signup-details-wrapper .page-heading{
+    margin-left:3%;
+}
+.login-margin-top{
+    margin-top:0;
+}
+@media screen and (min-width:640px){
+    .signup-details-wrapper .signup-details{
+        margin-top:6.25rem;
+   }
+    .signup-form {
+        width:40%;
+        display: inline-block;
+        margin-right:5%;
+   }
+   .login-margin-top{
+        margin-top:5rem;
+   }
+}

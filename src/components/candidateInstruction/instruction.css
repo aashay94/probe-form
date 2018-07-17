@@ -1,0 +1,39 @@
+.m-instruction .m-container {
+    height: 25rem;
+    margin-top: 10%;
+}
+
+.m-instruction .m-heading {
+    background-color: #262626;
+    padding: 0.6rem 1.2rem;
+    color: #e6e6e6;
+}
+
+.m-instruction .m-list li {
+    list-style-type: disc;
+}
+
+.m-instruction .m-begin-button {
+    width: 12.1875rem;
+    margin-left: 2.8125rem;
+    padding-bottom: 0.625rem;
+}
+
+.m-instruction .m-content {
+    margin-left: 1.25rem;
+}
+
+@media screen and (min-width:48.0625rem) {
+    .m-instruction .m-container {
+        height: 17.5rem;
+        padding-bottom: 0.625rem;
+        width: 70%;
+        margin: auto;
+        vertical-align: center;
+        margin-top: 150px;
+    }
+    .m-instruction .m-begin-button {
+        width: 12.1875rem;
+        margin-left: 35%;
+    }
+}

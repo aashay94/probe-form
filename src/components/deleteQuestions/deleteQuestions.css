@@ -1,0 +1,40 @@
+.delete-questions .bg-container{
+	width:95%;
+	margin:auto;
+}
+.delete-questions .delete-statement{
+    color: #e6e6e6;
+    width: 90%;
+    margin: auto;
+    margin-top:1.25rem;
+    text-align: center;
+}
+.delete-questions{
+    margin-top:9.5rem;
+}
+.delete-questions .button{
+    width: 90%;
+    margin: 4%;
+}
+.delete-questions .pop-up-heading{
+    color: #e6e6e6;
+    background-color: #262626;
+    padding: 0.6rem 1.2rem;
+}
+@media screen and (min-width:640px){
+    .delete-questions{
+        width: 40%;
+        margin-left:30%;
+        margin-top:15rem;
+    }
+    .delete-questions .delete-statement{
+        padding: 1rem 0;
+    }
+    .delete-questions .button-link{
+        margin-left:7.5%;
+    }
+    .delete-questions .button{
+        width: 35%;
+        margin-left:5%;
+    }
+}

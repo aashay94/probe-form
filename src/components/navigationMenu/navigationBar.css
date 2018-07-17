@@ -1,0 +1,25 @@
+.nav-wrapper {
+    background-color: #333333;
+    display: none;
+}
+
+.nav-wrapper .nav-primary {
+    padding: 0.2rem;
+}
+
+.nav-wrapper .nav-link {
+    font-size: 0.7rem;
+    padding: 2%;
+    text-decoration: none;
+}
+
+.nav-container {
+    padding: 2px;
+}
+
+@media screen and (min-width:640px)
+{
+    .nav-wrapper {
+        display: block;
+    }
+} 

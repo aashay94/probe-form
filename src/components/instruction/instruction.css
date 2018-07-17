@@ -1,0 +1,60 @@
+.instruction-wrapper .instruction-container {
+    margin-top: 10%;
+    line-height: 1.5;
+    margin: 0 0.75rem;
+}
+
+.instruction-header {
+    background-color: #262626;
+    padding: 0.6rem 0.75rem;
+    color: #e6e6e6;
+}
+.instruction-content {
+    margin: 0 0.75rem;
+}
+.instruction-content-padding {
+    padding: 0.9375rem 0;
+}
+.instruction-content-bold {
+    font-weight: 700;
+}
+
+.instruction-list li {
+    list-style-type: disc;
+    margin-left: 2.5625rem;
+}
+
+.instruction-wrapper .begin-button {
+    width: 88%;
+    margin: 2rem 0 4.5rem 1.5rem;
+}
+
+.instruction-wrapper .instruction-content {
+    margin-left: 1.25rem;
+}
+
+@media screen and (min-width:640px) {
+    .instruction-wrapper .instruction-header {
+        font-size: 1.2rem;
+        padding-left: 1.5rem;
+    }
+    .instruction-wrapper .instruction-container {
+        padding-bottom: 0.625rem;
+        width: 50%;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .instruction-wrapper .instruction-content {
+        margin-left: 1.75rem;
+        margin-right: 1.75rem;
+    }
+    .instruction-wrapper .begin-button {
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .instruction-content-padding {
+        padding: 0;
+    }
+}

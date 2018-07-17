@@ -1,0 +1,253 @@
+@font-face {
+    font-family: "miller-display-roman", "Times New Roman", Times, serif;
+    src: url("../assests/fonts/miller-display-roman.otf") format("otf"),
+    url("../assests/fonts/miller-display-roman.ttf") format("ttf"),
+    url("../assests/fonts/miller-display-roman.woff") format("woff");
+}
+
+body {
+    font-family: "miller-display-roman";
+    font-size: 16px;
+    background-image: url("../assests/images/background.jpg");
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-container {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 1.2rem;
+    color: #e6e6e6;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.width-max {
+    width: 100%;
+}
+
+.font-l {
+    font-size:3rem;
+}
+
+.flex-align-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+legend {
+    color: #e6e6e6;
+    background-color: #262626;
+    padding: 0.6rem 1.2rem;
+}
+
+.input-group {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.is-label-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number] {
+    color: #e6e6e6;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 0.3rem;
+    margin: 1rem;
+}
+
+.button {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #e6e6e6;
+    padding: 0.6rem;
+}
+
+.button-primary {
+    background-color: #cc0000;
+    border-color: transparent;
+}
+
+.button-primary:hover {
+    background-color: transparent;
+    color: #cc0000;
+    border-color: #cc0000;
+    cursor: pointer;
+}
+
+.button-secondary {
+    background-color: #595959;
+    border-color: #595959;
+}
+
+.button-secondary:hover {
+    cursor: pointer;
+}
+
+.button-secondary:disabled {
+    background-color: transparent;
+    color: #999999;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: #e6e6e6;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.75rem;
+}
+
+.pagination a:hover {
+    color: #cc0000;
+    text-decoration: underline;
+}
+
+.dropdown-button {
+    color: #e6e6e6;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    text-align: left;
+    background-color: #595959;
+    border-radius: 3px;
+}
+
+.dropdown-primary {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #999;
+    width: 100%;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #e6e6e6;
+    padding: 0.75rem 1rem;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #cc0000;
+}
+
+.dropdown-primary:hover .dropdown-content {
+    display: block;
+}
+
+input[type=checkbox],
+input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+}
+
+input[type=checkbox],
+.checkbox-label,
+input[type=radio],
+.radio-label {
+    cursor: pointer;
+}
+
+input[type=checkbox]+.checkbox-label:before,
+input[type=radio]+.radio-label:before {
+    content: '';
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 0.3rem;
+}
+
+input[type=checkbox]:checked+.checkbox-label:before {
+    background: #fff;
+    box-shadow: inset 0 0 0 2px #000;
+}
+
+input[type=radio]+.radio-label:before {
+    border-radius: 50%;
+}
+
+input[type=radio]:checked+.radio-label:before {
+    background: #000;
+    box-shadow: inset 0 0 0 2px #fff;
+}
+
+.bg-container {
+    background-color: #4d4d4d;
+}
+
+.color-white {
+    color: #e6e6e6;
+}
+
+.color-grey {
+    color: #999;
+}
+
+.color-darkgrey {
+    color: #404040;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.font-weight-semibold {
+    font-weight: 600;
+}
+
+.font-weight-normal {
+    font-weight: 500;
+}
+
+@media screen and (min-width:640px) {
+    .main-container {
+        width: 80%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+
+}
